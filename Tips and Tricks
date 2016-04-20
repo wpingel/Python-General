@@ -1,0 +1,24 @@
+--------------------------------------------------
+Run Python Script in Python Shell
+--------------------------------------------------
+import os								              	Import Python's OS module to use operating system dependent functionality.
+os.getcwd()							            		Use the OS module function "getcwd" to return the current working directory.
+os.chdir('C:\\foo')						        	Use the OS module function "chdir" to change the current working directory.
+import subprocess							          Import Python's subprocess module to use subprocess functions.
+subprocess.call(['python', 'foo.py'])		Use the subprocess "call" function to call a Python script in the working directory.
+
+--------------------------------------------------
+Python Shell: Saving Keystrokes and Screenspace
+--------------------------------------------------
+To clear the screen in the shell:	      subprocess.call('cls', shell=True)
+You can shorten module calls: 	        import subprocess as sp
+Then you can use: 							        sp.call('cls', shell=True) 
+This will work for any as [varible]: 		import subprocess as foo
+And again:									            foo.call('cls', shell=True)
+
+--------------------------------------------------
+Run Python Script in Windows CMD Shell
+--------------------------------------------------
+cd c:\foo                               Change directory to location of python script.
+foo.py                                  Run python script file. Don't forget the file extension.
+

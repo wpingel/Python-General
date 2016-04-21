@@ -7,11 +7,13 @@ Adding Python to Windows Path
 
 Upgrading Pip
         (1) Open Windows CMD with Administrator Privileges
+        (3) Python -m pip
         (2) Python -m pip install --upgrade pip
         
 Installing Python Wheel (XlsxWriter) with Pip
         (1) Download Wheel from https://pypi.python.org/pypi/XlsxWriter#downloads
         (2) Open Windows CMD
-        (3) Python -m pip install C:\Users\wesle\Documents\Python\XlsxWriter-0.8.5-py2.py3-none-any.whl
+        (3) Python -m pip
+        (4) Python -m pip install C:\Users\wesle\Documents\Python\XlsxWriter-0.8.5-py2.py3-none-any.whl
         
         pyexcel may be better: https://pypi.python.org/pypi/pyexcel-xlsx/0.1.0

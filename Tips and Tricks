@@ -11,9 +11,11 @@ subprocess.call(['python', 'foo.py'])		Use the subprocess "call" function to cal
 Python Shell: Saving Keystrokes and Screenspace
 --------------------------------------------------
 To clear the screen in the shell:               subprocess.call('cls', shell=True)
+Alternatively:                                  os.system('cls')
+
 You can shorten module calls: 	                import subprocess as sp
 Then you can use: 				sp.call('cls', shell=True) 
-This will work for any as [varible]: 		import subprocess as foo
+This will work for any as [variable]: 		import subprocess as foo
 And again:					foo.call('cls', shell=True)
 
 --------------------------------------------------
